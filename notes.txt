@@ -1,0 +1,19 @@
++++++ Creature moves (added cost for corresponding stat)
+Child above 			(---)
+Child below 			(---)
+Child right 			(---)
+Child left  			(---)
+Wait 				(  -)
+Move				( --)
+Photosynthesize 		(  +)
+
++++++ Creature stats
+max amount children per turn 	(  -)
+max distance walked		(  -)
+HP				(  -) (per extra hp)
+Damage				( --) (per extra damage)
+FoV				( --) (per extra cell)
+
++++++ Extra stuff
+Fight				( --)
+Consume				(+++)

@@ -14,7 +14,7 @@ public class Program
 		{
 			world.Turn(0);
 			window.Update();
-			Thread.sleep(1000);
+			Thread.sleep(WorldValues.waitBetweenTurns);
 		}
 	}
 }

@@ -2,11 +2,12 @@ import java.util.ArrayList;
 
 public class WorldValues 
 {
-	final public static int worldDimX = 200;
-	final public static int worldDimY = 200;
-	final public static int cellSize = 5; //height and width of a cell in pixels
-	final public static long waitBetweenTurns = 1000;
+	final public static int worldDimX = 2000;
+	final public static int worldDimY = 2000;
+	final public static int cellSize = 2; //height and width of a cell in pixels
+	final public static long waitBetweenTurns = 100;
 	final public static long waitBetweenCreatures = 0;
+	final public static int minCreatureCount = 100000;
 	
 	private static ArrayList<Creature> actedCreatures = new ArrayList<Creature>();
 	

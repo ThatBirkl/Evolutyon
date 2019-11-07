@@ -34,8 +34,8 @@ public class World
 				}
 			}
 		}
-		
-		if(creatureCount < 10)
+		Logging.Log(creatureCount);
+		if(creatureCount < WorldValues.minCreatureCount)
 		{
 			CreateRandomCreature();
 		}
